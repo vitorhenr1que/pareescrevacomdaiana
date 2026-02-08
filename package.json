@@ -1,0 +1,35 @@
+{
+  "name": "prof-daiana-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "slicemachine": "start-slicemachine"
+  },
+  "dependencies": {
+    "@prismicio/client": "^7.21.5",
+    "@prismicio/helpers": "^2.3.9",
+    "@prismicio/next": "^2.2.1",
+    "@prismicio/react": "^3.3.0",
+    "date-fns": "^3.3.1",
+    "fast-xml-parser": "^4.3.5",
+    "lucide-react": "^0.344.0",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@slicemachine/adapter-next": "^0.3.95",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "slice-machine-ui": "^2.21.1",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}

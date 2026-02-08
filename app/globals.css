@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --glass-bg: rgba(255, 255, 255, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.3);
+  }
+
+  body {
+    @apply antialiased selection:bg-accent-500 selection:text-white bg-[#FCFDFF];
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-sans tracking-tight;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply backdrop-blur-xl border shadow-xl;
+    background-color: rgb(255 255 255 / 0.7);
+    border-color: rgb(255 255 255 / 0.2);
+  }
+
+  .glass-dark {
+    @apply backdrop-blur-xl border shadow-2xl;
+    background-color: rgb(15 23 42 / 0.8);
+    border-color: rgb(30 41 59 / 0.5);
+  }
+
+  .premium-gradient {
+    @apply bg-gradient-to-br from-primary-900 via-primary-800 to-primary-950;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-800 to-indigo-600;
+  }
+
+  .btn-premium {
+    @apply relative overflow-hidden px-8 py-4 rounded-xl font-semibold transition-all duration-500 hover:scale-[1.02] active:scale-95 shadow-lg hover:shadow-primary-500/20 active:shadow-sm;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .mask-radial {
+    mask-image: radial-gradient(circle, black, transparent);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-primary-50;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary-200 rounded-full border-2 border-primary-50 hover:bg-primary-400 transition-colors;
+}
+
+.animate-delay-100 {
+  animation-delay: 100ms;
+}
+
+.animate-delay-200 {
+  animation-delay: 200ms;
+}
+
+.animate-delay-300 {
+  animation-delay: 300ms;
+}
+
+.animate-delay-400 {
+  animation-delay: 400ms;
+}
+
+.animate-delay-500 {
+  animation-delay: 500ms;
+}
