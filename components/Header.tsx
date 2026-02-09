@@ -25,7 +25,7 @@ const Header = () => {
               <BookOpen className="h-6 w-6 text-accent-400" />
             </div>
             <span className="text-xl font-bold tracking-tight text-primary-900 md:text-2xl font-sans">
-              Profª <span className="text-secondary-600">Daiana Paixão</span>
+              Profª Daiana Paixão
             </span>
           </Link>
 
