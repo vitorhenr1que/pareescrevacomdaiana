@@ -35,7 +35,7 @@ export default async function BooksPage() {
             </div>
           </div>
           <h1 className="text-5xl lg:text-7xl font-sans font-bold text-primary-900 mb-8 tracking-tight leading-tight">
-            Biblioteca <span className="text-secondary-600 font-serif italic font-normal">Digital</span>
+            Biblioteca <span className="text-accent-500 font-serif italic font-normal">Digital</span>
           </h1>
           <p className="text-xl lg:text-2xl text-primary-400 font-light max-w-2xl mx-auto leading-relaxed">
             Acervo de livre acesso contendo registros acadêmicos, produções literárias e discussões sobre o cenário educacional brasileiro.

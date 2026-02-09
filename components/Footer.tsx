@@ -14,7 +14,7 @@ const Footer = () => {
                 <GraduationCap className="h-6 w-6 text-primary-900" />
               </div>
               <span className="text-2xl font-bold tracking-tight text-white font-sans">
-                Profª <span className="text-secondary-400">Daiana Paixão</span>
+                Profª <span className="text-accent-500">Daiana Paixão</span>
               </span>
             </Link>
             <p className="text-lg text-primary-200 font-light max-w-sm leading-relaxed">

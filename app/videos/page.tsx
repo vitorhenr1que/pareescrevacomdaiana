@@ -54,7 +54,7 @@ export default function VideosPage() {
               <span className="text-sm font-bold text-accent-600 uppercase tracking-widest">Aulas & Vídeos</span>
             </div>
             <h1 className="text-5xl lg:text-7xl font-sans font-bold text-primary-900 tracking-tight leading-tight">
-              Conteúdo <span className="text-secondary-600 font-serif italic font-normal">Digital</span>
+              Conteúdo <span className="text-accent-500 font-serif italic font-normal">Digital</span>
             </h1>
             <p className="mt-6 text-xl text-primary-400 font-light leading-relaxed">
               Assista a palestras, entrevistas e materiais didáticos organizados para aprofundar seu conhecimento em gestão e educação.
